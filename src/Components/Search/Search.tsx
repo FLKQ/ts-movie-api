@@ -17,6 +17,7 @@ const Search: React.FC<Props> = (props) => {
     <div className={styles.container}>
 
       <input
+       autoComplete='off'
        aria-label='type here'
        tabIndex={1}
        type='text'
